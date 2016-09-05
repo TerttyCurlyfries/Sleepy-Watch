@@ -1,0 +1,51 @@
+{
+    "author": "Stanivision Inc.",
+    "dependencies": {},
+    "keywords": [],
+    "name": "sleepywatch",
+    "pebble": {
+        "displayName": "SleepyWatch",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "KEY_EPISODE": 1,
+            "KEY_HOSTS": 2,
+            "KEY_TITLE": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/sleepyBW.png",
+                    "name": "IMAGE_SLEEPYBW_PNG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/sleepyIcon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_SLEEPYICON_PNG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/sleepy.png",
+                    "name": "IMAGE_SLEEPY_PNG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "651b9ea5-eec7-4688-aea7-9af0a0f44974",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
